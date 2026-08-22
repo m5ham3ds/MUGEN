@@ -1,0 +1,146 @@
+[Info] 
+name = "Training Room"
+
+[Camera]
+startx = 7.5
+starty = 0
+boundleft = -1420
+boundright = 1420
+boundhigh = -1400
+boundlow = 0
+tension = 400
+tensionhigh = 300
+tensionlow = 280
+startzoom = 1
+zoomin = 0.75
+zoomout = 0.65
+;--------------------------------------------------------
+[PlayerInfo]
+;--- Player 1 ---
+p1startx = -280
+p1starty = 0
+p1facing = 1
+
+;--- Player 2 ---
+p2startx = 280
+p2starty = 0
+p2facing = -1
+
+;--- Common ---
+leftbound = -2750
+rightbound = 2750
+topbound = 0
+botbound = 0
+;--------------------------------------------------------
+[Scaling]
+topz = 0
+botz = 50
+topscale = 1
+botscale = 1.2
+;--------------------------------------------------------
+[Bound]
+screenleft = 80
+screenright = 80
+;--------------------------------------------------------
+[StageInfo]
+zoffset = 0
+zoffsetlink = 3
+autoturn = 1
+resetBG = 0
+localcoord = 1280,720
+xscale = 1
+yscale = 1
+xshear = 0
+;--------------------------------------------------------
+[Reflection]
+intensity = 35
+
+[Shadow]
+intensity = 0
+color = 0,0,0
+yscale = 0
+reflect = 0
+fade.range = 0
+;--------------------------------------------------------
+[Music]
+bgmusic = Training Room.mp3
+bgm.loop = 1
+bgmvolume = 50
+
+;Main background definition
+[BGdef]
+spr = Training Room.sff
+debugbg = 0
+;---------------------------------------------------------
+
+;----------------------- BG Elements --------------------
+[BG BG]
+type = normal
+spriteno = 2,0
+start = 0, 0
+delta = 0, 0
+trans = none
+mask = 0
+scalestart = 2.4, 2.4
+tile = 1,1
+
+[BG Ceiling]
+type = parallax
+spriteno = 3,0
+start = 0,-450
+trans = none
+mask = 1
+delta = 1,1
+xscale = 1,0.307
+scalestart = 2.4,2.4
+yscalestart = 100
+zoomdelta = 1
+ID = 2
+
+[BG Floor]
+type = parallax
+spriteno = 3,1
+start = 0,640
+trans = none
+mask = 1
+delta = 0.307,1
+xscale = 0.307,1.55186
+scalestart = 2.4,2.4
+yscalestart = 100
+zoomdelta = 1
+ID = 3
+
+[BG Back]
+type = normal
+spriteno = 2,0
+start = 0, 412
+delta = 0.307, 1
+trans = none
+mask = 1
+scalestart = 2.4, 2.4
+ID = 2
+
+[BG Wall_Left]
+type = normal
+spriteno = 3, 2
+start = -836, 414
+delta = 0.307, 1
+mask = 1
+trans = none
+scalestart = 2.4, 2.4
+scaledelta = 0.00312,0
+zoomdelta = 1
+ID = 32
+
+[BG Wall_Right]
+type = normal
+spriteno = 3, 3
+start = 836, 414
+delta = 0.307, 1
+mask = 1
+trans = none
+scalestart = 2.4, 2.4
+scaledelta = -0.00312,0
+zoomdelta = 1
+ID = 33
+;--------------------------------------------------------
