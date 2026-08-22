@@ -1,0 +1,4 @@
+this motif gives you character previews.
+to set this as your default motif, set the following line in main.cfg:
+
+motif = data/motif1/system.def
