@@ -1,0 +1,4 @@
+touch layout for each game mode.
+touch layout states are located in systemAI.cns below "modifications".
+
+IMPORTANT: don't move touchbutton.def to this folder to avoid crashing when using an integrated mugen.
