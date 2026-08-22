@@ -1,0 +1,180 @@
+;-----------------------------------------------------------------------
+[TouchButtondef]
+WaitTime = 200
+ShowPressed = 1
+BasePanelWidth = 852
+FlipY = 0
+;-----------------------------------------------------------------------
+[Defaults]
+Button.Width = 60
+Button.Height = 60
+Button.BorderWidth = 1
+Button.ReleasedBorderColor = 255,255,255,127
+Button.ReleasedFillColor = 255,255,255,0
+Button.PressedBorderColor = 255,255,255,127
+Button.PressedFillColor = 255,255,255,127
+Button.AgainTime = 10000
+Button.TouchArea = 40,40
+;--------------------------P2--------------------------
+[Button]
+Input = 1
+X = 370
+Y = 454
+Command = RLeft
+ReleasedBorderColor = 255,255,255,50
+Width = 25
+Height = 25
+
+[Button]
+Input = 1
+X = 458
+Y = 454
+Command = RRight
+ReleasedBorderColor = 255,255,255,50
+Width = 25
+Height = 25
+
+[Button]
+Input = 1
+X = 110
+Y = 280
+Command = Jump
+ReleasedBorderColor = 255,255,255,50
+Width = 65
+Height = 65
+
+[Button]
+Input = 1
+X = 110
+Y = 410
+Command = Crouch
+ReleasedBorderColor = 255,255,255,50
+Width = 65
+Height = 65
+
+[Button]
+Input = 1
+X = 45
+Y = 345
+Command = Left
+ReleasedBorderColor = 255,255,255,50
+Width = 65
+Height = 65
+
+[Button]
+Input = 1
+X = 175
+Y = 345
+Command = Right
+ReleasedBorderColor = 255,255,255,50
+Width = 65
+Height = 65
+
+[Button]
+Input = 1
+X = 1
+Y = 225
+Command = Start
+ReleasedBorderColor = 255,255,255,50
+Width = 20
+Height = 20
+
+[Button]
+Input = 1
+X = 370
+Y = 1
+Command = Pause
+ReleasedBorderColor = 255,255,255,50
+Width = 20
+Height = 20
+
+[Button]
+Input = 1
+X = 462.3
+Y = 1
+Command = RDown
+ReleasedBorderColor = 255,255,255,50
+Width = 20
+Height = 20
+
+[Button]
+Input = 1
+X = 830.5
+Y = 1
+Command = Help
+ReleasedBorderColor = 255,255,255,50
+Width = 20
+Height = 20
+
+[Button]
+Input = 1
+X = 1
+Y = 1
+Command = Quit
+ReleasedBorderColor = 255,255,255,50
+Width = 20
+Height = 20
+
+[Button]
+Input = 1
+X = 1
+Y = 459
+Command = FullLifeAndPower
+ReleasedBorderColor = 255,255,255,50
+Width = 20
+Height = 20
+
+[Button]
+Input = 1
+X = 610
+Y = 320
+Command = X
+ReleasedBorderColor = 255,255,255,50
+Width = 60
+Height = 60
+
+[Button]
+Input = 1
+X = 680
+Y = 320
+Command = Y
+ReleasedBorderColor = 255,255,255,50
+Width = 60
+Height = 60
+
+[Button]
+Input = 1
+X = 750
+Y = 320
+Command = Z
+ReleasedBorderColor = 255,255,255,50
+Width = 60
+Height = 60
+
+[Button]
+Input = 1
+X = 610
+Y = 395
+Command = A
+ReleasedBorderColor = 255,255,255,50
+Width = 60
+Height = 60
+
+[Button]
+Input = 1
+X = 680
+Y = 395
+Command = B
+ReleasedBorderColor = 255,255,255,50
+Width = 60
+Height = 60
+
+[Button]
+Input = 1
+X = 750
+Y = 395
+Command = C
+ReleasedBorderColor = 255,255,255,50
+Width = 60
+Height = 60
+;-----------------------------------------------------------------------
